@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background-color: antiquewhite;
+  font-family: courier;
+  margin-top: 15%;
+}
+.main {
+  border: dotted 5px pink;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  background-color: lavender;
+  width: 50%;
+}
+
+.content p {
+  text-align: left;
+  padding: 10px;
+}
+
+img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 25px 50px 25px 50px;
+  padding: 10px;
+}
+
+strong,
+h1 {
+  font-family: cursive;
+}
